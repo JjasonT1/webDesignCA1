@@ -1,0 +1,139 @@
+body {
+  border: 2px solid rgb(95, 95, 95);
+  margin: 10px;
+  background-color: rgb(154, 185, 214);
+  font-family: "Times New Roman", Times, serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+/*Navigation - side menu*/
+.wrapper {
+  width: 300px;
+  position: relative;
+  top: 155px;
+  border-right: 1px solid rgb(95, 95, 95);
+  padding-right: 20px;
+  height: 700px;
+}
+
+.sidebar {
+  font-size: 1.8em;
+  position: relative;
+  left: 10px;
+}
+
+li {
+  list-style-type: none;
+  border-bottom: 1px solid rgb(95, 95, 95);
+  width: 195px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 50px;
+}
+
+li a:hover {
+  color: #ffffff;
+}
+
+li a {
+  text-decoration: none;
+  line-height: 5px;
+  font-size: 1.2em;
+  color: #a80505;
+}
+
+/*Welcome to Halloween HQ title*/
+h1 {
+  color: #ffffff;
+  font-size: 2.5em;
+  background-color: #e08c6b;
+  height: 117px;
+  text-align: center;
+  padding-top: 65px;
+  position: fixed;
+  bottom: 757px;
+  width: 98.8%;
+  border-bottom: 1px solid rgb(95, 95, 95);
+  z-index: -1;
+}
+
+/*Halloween Headquarters title*/
+h2 {
+  color: #2e485e;
+  padding-left: 450px;
+  font-size: 2.5em;
+  position: relative;
+  bottom: 530px;
+}
+
+/*Paragraph*/
+.first-paragraph {
+  font-size: 1.3em;
+  color: #2e485e;
+  padding-left: 450px;
+  position: relative;
+  bottom: 530px;
+  width: 57.5%;
+}
+
+.second-paragraph {
+  font-size: 1.3em;
+  color: #2e485e;
+  padding-left: 450px;
+  position: relative;
+  bottom: 520px;
+  width: 60%;
+}
+
+/* Halloween images*/
+.image1 {
+  float: left;
+  padding-right: 110px;
+  position: relative;
+  left: 450px;
+  bottom: 490px;
+}
+
+.image2 {
+  float: left;
+  padding-right: 160px;
+  position: relative;
+  left: 450px;
+  bottom: 490px;
+}
+
+.image3 {
+  float: left;
+  position: relative;
+  left: 450px;
+  bottom: 490px;
+}
+
+/*Link to another page*/
+.link {
+  position: relative;
+  bottom: 165px;
+  font-size: 1.3em;
+  color: #2e485e;
+  right: 140px;
+}
+
+.link a:hover {
+  color: #fff;
+}
+
+footer {
+  background-color: #e08c6b;
+  height: 65px;
+  border-top: 1px solid rgb(95, 95, 95);
+  margin-top: -140px;
+}
+
+.copyright {
+  color: #fff;
+  position: relative;
+  top: 2px;
+  text-align: center;
+  font-size: 1.3em;
+}
